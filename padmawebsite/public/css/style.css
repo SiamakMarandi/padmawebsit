@@ -1,0 +1,294 @@
+body {
+    font-family: Tahoma;
+    background: #e5dfff;
+    direction: rtl;
+    clear: both;
+
+}
+h2 { padding: 20px 0 10px 0;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: normal;
+    color: #adc276;
+    text-shadow: 0 1px 3px #222222;
+}
+
+@font-face {
+    font-family: BLotus;
+    src: url('/public/fonts/BLOTUS.TTF');
+}
+@font-face {
+    font-family: "Titr";
+
+src: url("/public/fonts/titrbold.ttf");
+
+}
+
+@font-face {
+    font-family: traffic;
+    src: url("/public/fonts/traffic.ttf");
+}
+
+
+.ul-main-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-main {
+    height: 110px;
+    width: auto;
+    background: black;
+}
+
+nav {
+
+    width: auto;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-right: 85px;
+    float: right;
+}
+
+.header-register {
+
+    padding-top: 45px;
+    float: left;
+}
+
+.header-register a {
+    padding-left: 50px;
+}
+
+.header-menu li {
+    padding: 30px;
+    float: right;
+
+}
+
+.header-logo {
+
+    float: right;
+    padding: 8px;
+}
+
+.main-content {
+
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+img.slide_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.address{
+
+    font-family: BLOTUS;
+    font-weight: bolder;
+    margin-top: 150px;
+    direction: rtl;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+p.address-titr{
+
+    font-family: BTitr;
+    font-size: 35px;
+    margin: 10px;
+
+
+
+}
+p.address-location{
+
+    font-family: BLOTUS;
+    font-size: 25px;
+    margin: 35px;
+}
+
+p.address-tel{
+
+    font-family: BLOTUS;
+    font-size: 25px;
+    margin: 35px;
+}
+p.address-email{
+
+    font-family: BLOTUS;
+    font-size: 25px;
+    margin: 35px;
+}
+p.address-time{
+
+    font-family: traffic;
+    font-size: 25px;
+    margin: 35px;
+}
+.schedule-table{
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+.schedule-titr{
+
+    font-family: "B titr";
+    font-style: normal;
+    font-size: 35px;
+    padding: 10px;
+
+}
+.schedule-table th,td{
+
+    font-family: "B Lotus";
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+#slider_container_2 {
+
+
+    width: 1000px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.SliderNamePrev_2 {
+    background: url(../images/img/left.png) no-repeat left center;
+    width: 50px;
+    height: 450px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+}
+
+.SliderNameNext_2 {
+    background: url("../images/img/right.png") no-repeat right center;
+    width: 50px;
+    height: 450px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+}
+
+.SliderName_2Description {
+    padding: 10px;
+    font-family: Tahoma,Arial,Helvetica;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 1px 3px #000000;
+}
+
+#SliderNameNavigation_2 {
+    margin: 0;
+    padding: 10px 0 0 0;
+    height: 16px;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#SliderNameNavigation_2 a:link, #SliderNameNavigation_2 a:active, #SliderNameNavigation_2 a:visited, #SliderNameNavigation_2 a:hover{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+
+#SliderNameNavigation_2 a img
+{
+    border: none;
+    width: 16px;
+    height: 16px;
+    background: url("../images/img/bullet.gif") no-repeat center center;
+}
+
+#SliderNameNavigation_2 a.active img
+{
+    background: url("../images/img/bullet_red.gif") no-repeat center center;
+}
+
+.content2-article{
+    background: white;
+    height: auto;
+    direction: rtl;
+    width: 65%;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.table-post  {
+    padding: 5px;
+
+    width: 100%;
+}
+
+.table-post th, td, tr{
+
+    border: none;
+}
+.body-border{
+
+    border:1px  gray;
+    border-bottom-style: solid;
+    padding: 5px;
+
+
+}
+.td-body{
+
+    font-family: "Open Sans", "IranSans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    color: #666;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 5px;
+
+}
+.td-title{
+
+font-family: "Open Sans", "IranSans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+
+}
+.td-created{
+
+    text-align: right;
+    padding:35px;
+
+
+}
+.td-category{
+
+    text-align: right;
+}
